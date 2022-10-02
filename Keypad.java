@@ -75,6 +75,7 @@ public class Keypad {
 		Scanner sc  = new Scanner(System.in);
 		int n = sc.nextInt();
 		String arr[] = keypad(n);
+                // the inputs are : 
 		for (int i = 0; i < arr.length; i++)
 			System.out.println(arr[i]);
 
